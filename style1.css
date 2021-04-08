@@ -1,13 +1,12 @@
 html, body {
-    cursor: url(cursor.png), auto !important;
+    cursor: url(cursor.png), auto ;
+
 }
-
-
 * {
     box-sizing: border-box;
     margin: 0%;
     padding: 0%;
-    font-family: comic Sans MS, serif !important;
+    font-family: "Times New Roman" !important;
 }
 .video-container {
     position: absolute;
@@ -61,7 +60,7 @@ video {
 
 .nav {
     width: 100%;
-    height: 120px;
+    height: 100px;
     position: fixed;
     line-height: 100px;
     z-index: 2;
@@ -78,7 +77,7 @@ video {
     margin-left: 40px;
     line-height: 100px;
     font-weight: bold;
-     
+    font-size: 30px;
 }
 
 .nav #brand a {
@@ -87,15 +86,18 @@ video {
     transition: all 500ms ease-out;
 }
 
+.nav #brand a:hover {
+    text-decoration: none;
+}
 
 .nav #menu {
     float: left;
-    right: 10px;
+    right: 40px;
     position: fixed;
 }
 
 .nav #menu li {
-    padding-left: 50px;
+    padding-left: 40px;
     display: inline-block;
     font-weight: lighter !important;
     text-transform: uppercase;
@@ -208,6 +210,10 @@ video {
             opacity: 1;
             margin-top: 6px;
             margin-right: 4px;
+      }
+
+      nav #brand {
+            margin-left: 10px;
       }
 
       #resize ul li a {
