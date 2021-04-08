@@ -1,521 +1,533 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta http-equiv="X-UA-Compatible" content="ie=edge">
-      <title>BK TechnoTrends</title>
-      <link rel="stylesheet" href="style1.css">
-      <link rel="shortcut icon" type="img/jpg" href="trends.jpg">
-      <link href="https://fonts.googleapis.com/css?family=Darker+Grotesque:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
-
-      <!-- bootstrap -->
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-
-      <!-- icons -->
-      <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
-
-      <!-- for on scroll animations -->
-      <link rel="stylesheet" href="https://cdn.rawgit.com/daneden/animate.css/v3.1.0/animate.min.css">
-      <script src="https://cdn.rawgit.com/matthieua/WOW/1.0.1/dist/wow.min.js"></script>
-</head>
-<body>
-      <a name="home"></a>
-      <div class="wrapper">
-            <div class="video-container">
-                  <video playsinline autoplay muted loop id="bgvid">
-                        <source src="background loop.mp4" type="video/mp4">
-                  </video>
-            </div>
-            <div class="header">
-                  <h1>A home to enhance you</h1>
-            </div>
-
-            <nav class="nav">
-                  <span id="brand">
-                        <img src="trends.jpg" style="width:80px; height: 70px;">
-                        <a href="index.html">BKTechnoTrends</a>
-                  </span>
-
-                  <ul id="menu">
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#about">About us</a></li>
-                        <li><a href="#services">Services</a></li>
-                        <li><a href="#team">Our team</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                  </ul>
-
-                  <div id="toggle">
-                        <div class="span">menu</div>
-                  </div>
-
-            </nav>
-            <div id="resize">
-                  <div class="close-btn">close</div>
-                  <ul id="menu">
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#about">About us</a></li>
-                        <li><a href="#services">Services</a></li>
-                        <li><a href="#team">Our team</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                  </ul>
-            </div>
-
-            <div class="content">
-            <a name="about"></a>
-           <section class="story">
-                  <div class="container-fluid">
-                        <div class="section-data">
-
-                              <div class="row">
-                                    <div class="col-md-2"></div>
-                                    <div class="col-md-2 section-index wow fadeInUp" data-wow-delay="0.3s">01</div>
-                                    <div class="col-md-8 section-heading wow fadeInUp" data-wow-delay="0.4s">General information</div>
-                              </div>
-
-                              <div class="row">
-                                    <div class="col-md-4"></div>
-                                    <div class="col-md-6 section-subheading wow fadeInUp" data-wow-delay="0.5s"><h1>BREAD AND KNIFE TECHNO TRENDS</h1></div>
-                              </div>
-
-                             <div class="row">
-                                    <div class="col-md-4"></div>
-                                    <div class="col-md-6 section-info wow fadeInUp" data-wow-delay="0.6s">A company that provides high quality games. It is a company that develops a game that teaches people and at the same time it can give happiness to the user of the game. Bread and Knife goals are to teach people and at the same time give them challenges that develop their skills.</div>
-                              </div>
-
-                              <div class="row">
-                                    <div class="col-md-4"></div>
-                                    <div class="col-md-6 section-subheading wow fadeIn" data-wow-delay="0.5s" id="row1"><h1><br> CORE VALUES</h1></div>
-                              </div>
-
-                             <div class="row">
-                                    <div class="col-md-4"></div>
-                                    <div class="col-md-6 section-info wow fadeIn" data-wow-delay="0.6s" id="row2">
-                                    COMPANIONSHIP - As a game company, we are able to give you time to spend time with someone or having someone to spend time with. The state of having a companion or being someone's companion is good to make friends.<br>
-                                    CREATIVITY - It is a way of thinking that inspires, challenges, and helps people to find innovative solutions and create opportunities out of problems.<br>
-                                    FLEXIBILITY -  This is our strategy to emphasize being able and our willingness to adapt to changing circumstances when it comes to how work gets done.<br>
-                                    PASSION -  Our passion stems from caring deeply about what we do or where we work and being personally invested in and motivated by our mission.
-                              </div>
-                              </div>
-                              
-                              <div class="row">
-                                    <div class="col-md-4"></div>
-                                    <div class="col-md-8 more wow fadeInUp" data-wow-delay="0.7s">
-                                          <button id="btn1">Know more</button>
-                                    </div>
-                              </div>
-                        </div>
-
-                  </div>
-
-           </section>
-
-            <!--------------- about section ends here --------------->
-
-            <!--------------- services section starts here --------------->
-
-            <a name="services"></a>
-
-           <section class="services">
-
-            <div class="container-fluid">
-
-                  <div class="section-data">
-
-                        <div class="row">
-                              <div class="col-md-2"></div>
-                              <div class="col-md-2 section-index wow fadeInUp" data-wow-delay="0.3s">02</div>
-                              <div class="col-md-8 section-heading wow fadeInUp" data-wow-delay="0.4s">What we do</div>
-                        </div>
-
-                        <div class="row service">
-                              <div class="col-md-4"></div>
-                              <div class="col-md-3 wow fadeInUp" data-wow-delay="0.5s">
-                                    <div class="icon">
-                                          <a href="#"> <ion-icon name="finger-print"></ion-icon> </a>
-                                    </div>
-                                    <div class="icon-title">
-                                          Software testing
-                                    </div>
-                              </div>
-
-                              <div class="col-md-3 wow fadeInUp" data-wow-delay="0.6s">
-                                          <div class="icon">
-                                                <ion-icon name="link"></ion-icon>
-                                          </div>
-                                          <div class="icon-title">
-                                                Automation Testing
-                                          </div>
-                              </div>
-                        </div>
-
-                        <div class="row service">
-                                    <div class="col-md-4"></div>
-                                    <div class="col-md-3 wow fadeInUp" data-wow-delay="0.7s">
-                                          <div class="icon">
-                                                <ion-icon name="cloud-upload"></ion-icon>
-                                          </div>
-                                          <div class="icon-title">
-                                                Cloud Storage
-                                          </div>
-                                    </div>
-
-                                    <div class="col-md-3 wow fadeInUp" data-wow-delay="0.8s">
-                                          <div class="icon">
-                                                <ion-icon name="share"></ion-icon>
-                                          </div>
-                                          <div class="icon-title">
-                                                Web Design
-                                          </div>
-                                    </div>
-                              </div>
-                  </div>
-
-            </div>
-
-           </section>
-
-            <!--------------- services section ends here --------------->
-
-            <!--------------- team section starts here --------------->
-
-                <a name="team"></a>
-
-            <section class="team">
-
-                  <div class="container-fluid">
-
-                        <div class="row">
-                              <div class="col-md-2"></div>
-                              <div class="col-md-2 section-index wow fadeInUp" data-wow-delay="0.3s">03</div>
-                              <div class="col-md-8 section-heading wow fadeInUp" data-wow-delay="0.4s">Our team</div>
-                        </div>
-
-                        <div class="row members">
-
-                              <div class="col-md-4"></div>
-
-                              <div class="col-md-3 wow fadeInUp" data-wow-delay="0.5s">
-                                    <div class="team-member">
-                                          <div class="team-img team-one"></div>
-                                    </div>
-                                    <div class="team-title">
-                                          <h5>Dino, Vincent</h5>
-                                          <span>President/Founder</span>
-                                    </div>
-                              </div>
-                              <div class="col-md-3 wow fadeInUp" data-wow-delay="0.6s">
-                                    <div class="team-member">
-                                          <div class="team-img team-two"></div>
-                                    </div>
-                                    <div class="team-title">
-                                          <h5>Balidoy, Mark John</h5>
-                                          <span>Vice President/Co-founder</span>
-                                    </div>
-                              </div>
-                              <div class="col-md-3 wow fadeInUp" data-wow-delay="0.6s">
-                                    <div class="team-member">
-                                          <div class="team-img team-3"></div>
-                                    </div>
-                                    <div class="team-title">
-                                          <h5>Calambro, Christian James Calambro</h5>
-                                          <span>Game Developer</span>
-                                    </div>
-                              </div>
-                              <div class="col-md-3 wow fadeInUp" data-wow-delay="0.6s">
-                                    <div class="team-member">
-                                          <div class="team-img team-4"></div>
-                                    </div>
-                                    <div class="team-title">
-                                          <h5>Tadeo,Sean Nouwen</h5>
-                                          <span>Game Designer</span>
-                                    </div>
-                              </div>
-                              <div class="col-md-3 wow fadeInUp" data-wow-delay="0.6s">
-                                    <div class="team-member">
-                                          <div class="team-img team-5"></div>
-                                    </div>
-                                    <div class="team-title">
-                                          <h5>Labayog, Machiel Jake</h5>
-                                          <span>Game Artist</span>
-                                    </div>
-                              </div>
-                              <div class="col-md-3 wow fadeInUp" data-wow-delay="0.6s">
-                                    <div class="team-member">
-                                          <div class="team-img team-6"></div>
-                                    </div>
-                                    <div class="team-title">
-                                          <h5>Lumacang, Jezzy</h5>
-                                          <span>Human Resources and Development Head</span>
-                                    </div>
-                              </div>
-                              <div class="col-md-3 wow fadeInUp" data-wow-delay="0.6s">
-                                    <div class="team-member">
-                                          <div class="team-img team-7"></div>
-                                    </div>
-                                    <div class="team-title">
-                                          <h5>Pena, Andrey Jass</h5>
-                                          <span>Sales and Marketing</span>
-                                    </div>
-                              </div>
-                              <div class="col-md-3 wow fadeInUp" data-wow-delay="0.6s">
-                                    <div class="team-member">
-                                          <div class="team-img team-8"></div>
-                                    </div>
-                                    <div class="team-title">
-                                          <h5>Flores, Stephanie Maureen</h5>
-                                          <span>Music and Sound Designer</span>
-                                    </div>
-                              </div>
-                              <div class="col-md-3 wow fadeInUp" data-wow-delay="0.6s">
-                                    <div class="team-member">
-                                          <div class="team-img team-9"></div>
-                                    </div>
-                                    <div class="team-title">
-                                          <h5>Lucas, Emmanuel</h5>
-                                          <span>Marketing Assistant</span>
-                                    </div>
-                              </div>
-                              <div class="col-md-3 wow fadeInUp" data-wow-delay="0.6s">
-                                    <div class="team-member">
-                                          <div class="team-img team-10"></div>
-                                    </div>
-                                    <div class="team-title">
-                                          <h5>Garzon, Aaron David</h5>
-                                          <span>Developer Director</span>
-                                    </div>
-                              </div>
-
-                        </div>
-
-                  </div>
-
-            </section>
-
-            <!--------------- team section ends here --------------->
-
-            <!--------------- newsletter section starts here --------------->
-
-           <section class="newsletter">
-
-                  <div class="container">
-
-                        <div class="row">
-                              <div class="col-md-12">
-                                    <div class="news-data">
-                                    <div class="section-subheading">
-                                          <h1 class="wow fadeInUp" data-wow-delay="0.3s">Subscribe to our newsletter</h1>
-                                    </div>
-
-                                    <div class="input-group wow fadeInUp" data-wow-delay="0.4s">
-                                          <input type="email" class="form-control" placeholder="Enter your email">
-                                          <span class="input-group-btn">
-                                                <button class="btn" type="submit">Subscribe</button>
-                                          </span>
-                                    </div>
-                                    </div>
-                              </div>
-                        </div>
-
-                  </div>
-
-           </section>
-
-            <!--------------- newsletter section ends here --------------->
-
-            <!--------------- contact section starts here --------------->
-
-            <a name="contact"></a>
-
-            <section class="contact">
-
-                  <div class="container-fluid">
-
-                        <div class="row">
-                              <div class="col-md-2"></div>
-                              <div class="col-md-2 section-index wow fadeInUp" data-wow-delay="0.3s">04</div>
-                              <div class="col-md-8 section-heading wow fadeInUp" data-wow-delay="0.4s">Contact us</div>
-                        </div>
-
-                        <div class="row">
-                              <div class="col-md-4"></div>
-                              <div class="col-md-6 icon-title wow fadeInUp" data-wow-delay="0.5s"> 
-                             bk.technotrends@gmail.com</div>
-                        </div>
-
-                        <div class="row">
-                              <div class="col-md-4"></div>
-                              <div class="col-md-6">
-                                    <form action="" name="contact-form" id="contact-form" method="POST">
-
-                                          <ul>
-
-                                                <li class="wow fadeInUp" data-wow-delay="0.6s">
-                                                      <label for="contact-name">Name :</label>
-                                                      <div class="textarea">
-                                                            <input type="text" name="contact-name" id="contact-name" value="" required>
-                                                      </div>
-                                                </li>
-
-                                                <br>
-
-                                                <li class="wow fadeInUp" data-wow-delay="0.7s">
-                                                      <label for="contact-email">E-mail :</label>
-                                                      <div class="textarea">
-                                                            <input type="email" name="contact-email" id="contact-email" value="" required>
-                                                      </div>
-                                                </li>
-
-                                                <br>
-
-                                                <li class="wow fadeInUp" data-wow-delay="0.8s">
-                                                     <label for="contact-project">Message :</label> 
-                                                     <div class="textarea">
-                                                     <textarea name="contact-project" id="contact-project" rows="6" required></textarea>
-                                                     </div>
-                                                </li>
-
-                                          </ul>
-
-                                          <button type="submit" name="contact-submit" id="contact-submit" class="send wow fadeInUp" data-wow-delay="0.9s">Send Message</button>
-
-                                    </form>
-                              </div>
-                        </div>
-
-                  </div>
-
-            </section>
-
-            <!--------------- footer starts here --------------->
-
-            <div class="footer">
-
-                  <div class="container">
-
-                        <div class="info">
-
-                              <div class="row">
-                                    <div class="col-md-4 wow fadeInUp" data-wow-delay="0.3s" id="address">
-                                          <p>Workarea</p>
-                                          <h4>STI Ortigas Cainta</h4>
-                                          <h4>Cainta Rizal</h4>
-                                          <h4>PH 1806</h4>
-                                          <br><br>
-                                    </div>
-
-                                    <div class="col-md-4 wow fadeInUp" data-wow-delay="0.4s" id="media">
-                                          <ul>
-                                                <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
-
-                                                <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
-
-                                                <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
-
-                                                <li><a href="#"><ion-icon name="logo-youtube"></ion-icon></a></li>
-                                          </ul>
-
-                                          <br><br>
-                                    </div>
-
-                                    <div class="col-md-4 wow fadeInUp" data-wow-delay="0.5s" id="mail">
-                                          <p>Say Hello</p>
-                                          <h4>bk.technotrends@gmail.com</h4>
-
-                                          <br><br>
-                                    </div>
-                              </div>
-
-                        </div>
-
-                  </div>
-
-            </div>
-
-            <!--------------- footer ends here --------------->
-
-            </div>
-
-      </div>
-
-
-<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-<script>
-
-// navigation starts here
-        $("#toggle").click(function() {
-            $(this).toggleClass('on');
-            $("#resize").toggleClass("active");
-        });
-        $("#resize ul li a").click(function() {
-            $(this).toggleClass('on');
-            $("#resize").toggleClass("active");
-        });
-        $(".close-btn").click(function() {
-            $(this).toggleClass('on');
-            $("#resize").toggleClass("active");
-        });
-        $(document).ready(function () {
-            $("#btn1").click(function () {
-            $("#row1").toggle(50);
-            });
-        });
-        $(document).ready(function () {
-            $("#btn1").click(function () {
-            $("#row2").toggle(50);
-            });
-        });
-        
-        
-
-$(function () {
-  $(document).scroll(function () {
-    var $nav = $(".nav");
-    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
-  });
-});
-
-new WOW().init();
-
-// Select all links with hashes
-$('a[href*="#"]')
-  // Remove links that don't actually link to anything
-  .not('[href="#"]')
-  .not('[href="#0"]')
-  .click(function(event) {
-    // On-page links
-    if (
-      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
-      && 
-      location.hostname == this.hostname
-    ) {
-      // Figure out element to scroll to
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-      // Does a scroll target exist?
-      if (target.length) {
-        // Only prevent default if animation is actually gonna happen
-        event.preventDefault();
-        $('html, body').animate({
-          scrollTop: target.offset().top
-        }, 1000, function() {
-          // Callback after animation
-          // Must change focus!
-          var $target = $(target);
-          $target.focus();
-          if ($target.is(":focus")) { // Checking if the target was focused
-            return false;
-          } else {
-            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
-            $target.focus(); // Set focus again
-          };
-        });
-      }
+html, body {
+    cursor: url(cursor.png), auto !important;
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: comic Sans MS, serif !important;
+}
+.video-container {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.video-container::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: #1b1b1b;
+    opacity: 0.8;
+}
+
+.header {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+}
+
+.header h1 {
+    color: wheat;
+    font-size: 80px !important;
+}
+
+@media(max-width: 900px) {
+    .header {
+        left: 50%;
     }
-  });
+
+    .header h1 {
+        font-size: 34px !important;
+        text-align: center;
+    }
+}
+
+.nav {
+    width: 100%;
+    height: 120px;
+    position: fixed;
+    line-height: 100px;
+    z-index: 2;
+}
+
+.nav.scrolled {
+    background-color: black !important;
+    transition: background-color 500ms linear;
+}
+
+.nav #brand {
+    float: left;
+    display: block;
+    margin-left: 40px;
+    line-height: 100px;
+    font-weight: bold;
+     
+}
+
+.nav #brand a {
+    color: #fff;
+    font-family: inherit !important;
+    transition: all 500ms ease-out;
+}
 
 
-</script>
-</body>
-</html>
+.nav #menu {
+    float: left;
+    right: 10px;
+    position: fixed;
+}
+
+.nav #menu li {
+    padding-left: 50px;
+    display: inline-block;
+    font-weight: lighter !important;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 80px;
+    position: relative;
+    transition: all 500ms ease-out;
+}
+
+.nav #menu li a {
+    font-family: Poppins !important;
+    color: rgb(156, 156, 156);
+    transition: all 500ms ease-out;
+}
+
+.nav #menu li a:hover {
+    text-decoration: none;
+    color: #fff;
+    transition: all 500ms ease-out;
+}
+/*--------------- END --------------- */
+#row1 {
+  display: none;
+}
+#row2{
+  display: none;
+}
+#toggle {
+      position: absolute;
+      right: 40px;
+      top: -5px;
+      font-weight: 200;
+      color: #fff;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      z-index: 2;
+      width: 30px;
+      height: 30px;
+      float: right;
+      transition: all 0.3s ease-out;
+      visibility: hidden;
+      opacity: 0;
+}
+
+.close-btn {
+      position: absolute;
+      right: 20px;
+      font-weight: 300;
+      color: #fff;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      z-index: 2;
+      top: 10px;
+      line-height: 80px;
+}
+
+#resize {
+      z-index: 2;
+      top: 0px;
+      position: fixed;
+      background: #0f0f0f;
+      width: 100%;
+      height: 100%;
+      visibility: hidden;
+      opacity: 0;
+      transition: all 1s ease-out;
+}
+
+#resize #menu {
+      height: 50px;
+      position: absolute;
+      left: 45%;
+      transform: translateX(-40%);
+      text-align: center;
+      display: table-cell;
+      vertical-align: center;
+}
+
+#resize #menu li {
+      display: block;
+      text-align: center;
+      padding: 0px;
+      font-size: 50px;
+      text-transform: uppercase;
+      min-height: 50px;
+      font-weight: bold;
+      transition: all 0.3s ease-out;
+}
+
+#resize li:nth-child(1) {
+      margin-top: 70px;
+}
+
+#resize #menu li a {
+      color: #fff;
+}
+
+#resize #menu li a:hover {
+      text-decoration: none;
+}
+
+#resize.active {
+      visibility: visible;
+      opacity: 1;
+}
+
+@media(max-width: 900px) {
+      #toggle {
+            visibility: visible;
+            opacity: 1;
+            margin-top: 6px;
+            margin-right: 4px;
+      }
+
+      #resize ul li a {
+            font-size: 15px;
+            font-family: "Poppins" !important;
+            font-weight: lighter !important;
+            color: rgb(156, 156, 156) !important;
+            transition: all 500ms ease-out;
+      }
+
+      nav #menu {
+            display: none;
+      }
+}
+
+@media(min-width: 900px) {
+      #resize {
+            visibility: hidden !important;
+      }
+}
+
+/*--------------- about section starts  --------------- */
+
+.content {
+      position: absolute;
+      margin-top: 100vh;
+      width: 100%;
+}
+
+section {
+      padding: 140px 0;
+}
+
+.section-index {
+      color: #d3ae87;
+      font-weight: bolder;
+      font-size: 20px;
+      font-family: Poppins !important;
+}
+
+.section-heading {
+      color: grey;
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      font-size: 18px;
+}
+
+.section-subheading {
+      color: grey;
+      margin: 10px 0;
+}
+
+.section-info {
+      font-size: 24px;
+      color: grey;
+}
+
+.more {
+      margin: 40px 0;
+}
+
+button {
+      background: none;
+      border: .3pt solid rgba(184, 140, 93, 0.7);
+      text-transform: uppercase !important;
+      font-size: 12px !important;
+      letter-spacing: 2px;
+      padding: 18px 36px;
+}
+
+/*--------------- services section starts  --------------- */
+
+.services {
+      background: #161616;
+}
+
+.service {
+      margin: 30px 0;
+}
+
+.icon ion-icon {
+      font-size: 36px;
+      color: #d3ae87;
+}
+
+.icon-title {
+      font-size: 28px;
+      margin-bottom: 4px;
+      color: rgb(182, 182, 182);
+      font-weight: lighter;
+}
+
+/*--------------- our team section starts  --------------- */
+
+.team-member, .team-img {
+      position: relative;
+}
+
+.team-img {
+      background: grey;
+      height: 340px;
+}
+
+.members {
+      margin: 50px 0;
+}
+
+.team-title {
+      margin: 20px 0;
+      color: black;
+}
+
+.team-title h5 {
+      font-size: 28px;
+}
+
+.team-title span {
+      font-size: 20px;
+}
+
+.team-member {
+      overflow: hidden;
+}
+
+.team-one {
+      background: url(pres.jpg) no-repeat 50% 50%;
+      background-size: cover;
+}
+
+.team-two {
+      background: url(vpres.jpg) no-repeat 50% 50%;
+      background-size: cover;
+}
+.team-3 {
+      background: url(GB.jpg) no-repeat 50% 50%;
+      background-size: cover;
+}
+.team-4 {
+      background: url(GD.jpg) no-repeat 50% 50%;
+      background-size: cover;
+}
+.team-5 {
+      background: url(GA.jpg) no-repeat 50% 50%;
+      background-size: cover;
+}
+.team-6 {
+      background: url(HR.jpg) no-repeat 50% 50%;
+      background-size: cover;
+}
+.team-7 {
+      background: url(SME.jpg) no-repeat 50% 50%;
+      background-size: cover;
+}
+.team-8 {
+      background: url(MSD.jpg) no-repeat 50% 50%;
+      background-size: cover;
+}
+.team-9 {
+      background: url(MA.jpg) no-repeat 50% 50%;
+      background-size: cover;
+}
+
+.team-10 {
+      background: url(RDD.jpg) no-repeat 50% 50%;
+      background-size: cover;
+}
+
+/*--------------- newsletter section starts  --------------- */
+
+.newsletter {
+      padding: 140px 0;
+      background: #161616;
+}
+
+.newsletter input {
+      text-transform: uppercase;
+}
+
+.newsletter .news-data {
+      max-width: 650px;
+      margin: 0 auto;
+      text-align: center;
+      position: relative;
+}
+
+.newsletter h1 {
+      color: #fff;
+      margin-bottom: 40px;
+}
+
+.newsletter .form-control {
+      height: 50px;
+      border-color: #fff;
+      border-radius: 0 !important;
+}
+
+.form-control:focus {
+      box-shadow: none !important;
+      border: none !important;
+}
+
+::placeholder {
+      letter-spacing: 4px;
+}
+
+.newsletter .btn {
+      min-height: 50px;
+      padding: 0 30px;
+      border-radius: 0;
+      background: #000;
+      color: #fff;
+      font-size: 12px;
+      font-weight: 600;
+      text-transform: uppercase;
+      font-family: inherit !important;
+}
+
+/*--------------- contact section starts here --------------- */
+
+#contact-form {
+      margin: 5% 0;
+}
+
+.contact .icon-title {
+      margin-top: 10px;
+      color: #000;
+}
+
+#contact-form ul {
+      list-style: none;
+      margin-bottom: 40px;
+      border-radius: 0;
+}
+
+#contact-form li:last-of-type {
+      border-bottom: none;
+}
+
+#contact-form label {
+      display: block;
+      font-size: 22px;
+      color: rgb(97, 97, 97);
+}
+
+#contact-form input, #contact-form textarea {
+      width: 100%;
+      padding: 5px;
+      border: none;
+      resize: vertical;
+      background: transparent;
+      color: #101010;
+      font-weight: bolder;
+}
+
+input:focus {
+      outline: none !important;
+      border: none !important;
+}
+
+textarea:focus {
+      outline: none !important;
+      border: none !important;
+}
+
+.textarea {
+      border-bottom: 1px solid #c9c9c9;
+}
+
+@media(max-width: 900px) {
+      #contact-form {
+            margin: 5% 0;
+            width: 98%;
+      }
+}
+
+/*--------------- footer section starts here --------------- */
+
+.footer {
+      background: #161616;
+}
+
+#media, #address, #mail {
+      text-align: center !important;
+}
+
+.footer .container {
+      padding: 160px 0;
+}
+
+.footer li, p, h4 {
+      font-size: 24px !important;
+}
+
+.footer h4 {
+      font-weight: lighter;
+      color: #fff;
+}
+
+.footer p {
+      color: grey;
+      font-weight: lighter;
+}
+
+.footer li {
+      font-weight: lighter;
+      color: #fff;
+      padding-left: 20px;
+      font-size: 18px !important;
+}
+
+#media ul {
+      list-style: none;
+}
+
+#media ul li {
+      display: inline-block;
+}
+
+@media(max-width: 900px) {
+      .footer .container {
+            width: 92% !important;
+      }
+}
